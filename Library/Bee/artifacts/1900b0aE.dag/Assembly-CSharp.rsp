@@ -346,8 +346,11 @@
 "Assets/scripts/akcje/ruch/Wheel.cs"
 "Assets/scripts/Drag_Object.cs"
 "Assets/scripts/Load_Upgrades.cs"
+"Assets/scripts/Part_Inside_Socket_Handler.cs"
+"Assets/scripts/Part_Outside_Socket_Handler.cs"
 "Assets/scripts/Single_Socket_Handler.cs"
 "Assets/scripts/Socket_Handler.cs"
+"Assets/scripts/Sound_Handler.cs"
 -langversion:8.0
 
 /deterministic

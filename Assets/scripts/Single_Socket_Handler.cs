@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Single_Socket_Handler : MonoBehaviour
 {
-    public Sprite availableSprite, unavailableSprite;
+    public Sprite availableSprite, unavailableSprite, neutralSprite;
     public SpriteRenderer spriteRenderer;
     public bool available = false;
     void Start()
@@ -12,6 +12,7 @@ public class Single_Socket_Handler : MonoBehaviour
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         availableSprite = Resources.Load<Sprite>("sprites/sockets/available");
         unavailableSprite = Resources.Load<Sprite>("sprites/sockets/unavailable");
+        neutralSprite = Resources.Load<Sprite>("sprites/sockets/neutral");
 
         gameObject.transform.localScale = new Vector3(0.3f,0.3f,0.3f);
     }
@@ -39,6 +40,8 @@ public class Single_Socket_Handler : MonoBehaviour
     public void SetSocketAppearanceToNeutral(){
          available = false;
          gameObject.transform.localScale = new Vector3(0.3f,0.3f,0.3f);
+         spriteRenderer.sprite = neutralSprite;
     }
+
 
 }

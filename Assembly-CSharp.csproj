@@ -59,10 +59,13 @@
     <Compile Include="Assets\scripts\Actions.cs" />
     <Compile Include="Assets\scripts\akcje\ruch\Wheel.cs" />
     <Compile Include="Assets\scripts\akcje\ruch\Jump.cs" />
+    <Compile Include="Assets\scripts\Sound_Handler.cs" />
     <Compile Include="Assets\scripts\Load_Upgrades.cs" />
-    <Compile Include="Assets\scripts\Drag_Object.cs" />
-    <Compile Include="Assets\scripts\Socket_Handler.cs" />
+    <Compile Include="Assets\scripts\Part_Outside_Socket_Handler.cs" />
     <Compile Include="Assets\scripts\Single_Socket_Handler.cs" />
+    <Compile Include="Assets\scripts\Socket_Handler.cs" />
+    <Compile Include="Assets\scripts\Part_Inside_Socket_Handler.cs" />
+    <Compile Include="Assets\scripts\Drag_Object.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

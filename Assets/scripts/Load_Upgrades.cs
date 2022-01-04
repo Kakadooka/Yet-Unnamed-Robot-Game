@@ -30,7 +30,6 @@ public class Load_Upgrades : MonoBehaviour
             partObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Prefabs/parts/part images/"+part);
             partObject.name = part;
             partObject.transform.position = position;
-            partObject.transform.localScale = new Vector3(0.3f,0.3f,0.3f);
             partObject.transform.SetParent(parentList);
 
             objectIndex++;
